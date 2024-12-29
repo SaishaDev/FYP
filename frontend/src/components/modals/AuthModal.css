@@ -1,0 +1,108 @@
+/* src/components/modals/AuthModal.css */
+
+.auth-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Modal Container */
+  .auth-modal-container {
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Modal Header */
+  .auth-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-modal-header h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #e53e3e;
+  }
+  
+  /* Modal Body */
+  .auth-modal-body {
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .auth-input:focus {
+    border-color: #4c51bf; /* Blue */
+    outline: none;
+  }
+  
+  /* Modal Footer */
+  .auth-modal-footer {
+    text-align: center;
+  }
+  
+  .toggle-form-btn {
+    background: none;
+    border: none;
+    color: #4c51bf;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-form-btn:hover {
+    color: #2b6cb0; /* Blue Hover */
+  }
+  
+  /* Submit Button */
+  .auth-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4c51bf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-btn:hover {
+    background-color: #2b6cb0;
+  }
+  

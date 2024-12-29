@@ -1,0 +1,55 @@
+.hero-section-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+  }
+  
+  .hero-section-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .hero-section-title {
+    font-size: 2.25rem; 
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section-description {
+    font-size: 1.125rem; 
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section-search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .hero-section-search-input {
+    padding: 0.625rem 1.5rem 0.625rem 1.5rem; 
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    color: black;
+    width: 24rem; 
+    transition: all 0.2s ease;
+  }
+  
+  /* Search Icon */
+  .hero-section-search-icon {
+    position: absolute;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+  }
+  

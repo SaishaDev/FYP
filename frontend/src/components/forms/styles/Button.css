@@ -1,0 +1,29 @@
+/* src/styles/button.css */
+
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn--primary {
+    background-color: #4c51bf;
+    color: white;
+    border: none;
+  }
+  
+  .btn--primary:hover {
+    background-color: #2b6cb0;
+  }
+  
